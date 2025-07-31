@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  propostaservice:
+    build:
+      context: ./PropostaService
+      dockerfile: PropostaService.API/Dockerfile
+    ports:
+      - "5001:80"
+    networks:
+      - seguradora-net
+
+  contratacaoservice:
+    build:
+      context: ./ContratacaoService
+      dockerfile: ContratacaoService.API/Dockerfile
+    ports:
+      - "5002:80"
+    depends_on:
+      - propostaservice
+    networks:
+      - seguradora-net
+
+networks:
+  seguradora-net:
+    driver: bridge
