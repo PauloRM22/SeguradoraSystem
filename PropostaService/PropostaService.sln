@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropostaService.API", "PropostaService.API\PropostaService.API.csproj", "{620CE75A-22AB-4B3D-A5CD-7ACB01E812C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropostaService.Application", "PropostaService.Application\PropostaService.Application.csproj", "{BF49BEE6-22FF-4D01-AC59-D81A2ECB8BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Domain", "PropostaService.Domain\PropostaService.Domain.csproj", "{49219A39-3E01-4832-BC02-1B979FBDE2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Infrastructure", "PropostaService.Infrastructure\PropostaService.Infrastructure.csproj", "{04808CC7-EF9B-4F74-8981-D9DB35219CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Tests", "PropostaService.Tests\PropostaService.Tests.csproj", "{0A802D56-1163-4B58-8211-63B217B81906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.IntegrationTests", "PropostaService.IntegrationTests\PropostaService.IntegrationTests.csproj", "{E55F206C-859B-46C1-A95C-74EF53B89D08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{620CE75A-22AB-4B3D-A5CD-7ACB01E812C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620CE75A-22AB-4B3D-A5CD-7ACB01E812C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620CE75A-22AB-4B3D-A5CD-7ACB01E812C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620CE75A-22AB-4B3D-A5CD-7ACB01E812C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF49BEE6-22FF-4D01-AC59-D81A2ECB8BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF49BEE6-22FF-4D01-AC59-D81A2ECB8BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF49BEE6-22FF-4D01-AC59-D81A2ECB8BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF49BEE6-22FF-4D01-AC59-D81A2ECB8BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49219A39-3E01-4832-BC02-1B979FBDE2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49219A39-3E01-4832-BC02-1B979FBDE2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49219A39-3E01-4832-BC02-1B979FBDE2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49219A39-3E01-4832-BC02-1B979FBDE2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04808CC7-EF9B-4F74-8981-D9DB35219CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04808CC7-EF9B-4F74-8981-D9DB35219CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04808CC7-EF9B-4F74-8981-D9DB35219CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04808CC7-EF9B-4F74-8981-D9DB35219CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A802D56-1163-4B58-8211-63B217B81906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A802D56-1163-4B58-8211-63B217B81906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A802D56-1163-4B58-8211-63B217B81906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A802D56-1163-4B58-8211-63B217B81906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55F206C-859B-46C1-A95C-74EF53B89D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55F206C-859B-46C1-A95C-74EF53B89D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55F206C-859B-46C1-A95C-74EF53B89D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55F206C-859B-46C1-A95C-74EF53B89D08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBDFE37C-A6DC-48AB-9E37-600C1636E4E9}
+	EndGlobalSection
+EndGlobal
